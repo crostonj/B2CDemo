@@ -1,0 +1,65 @@
+﻿@model IEnumerable<WebApp_OpenIDConnect_DotNet.Models.ForecastViewModel>
+
+@{
+    ViewData["Title"] = "Forecast";
+}
+
+<h2>Forecast</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.City)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Country)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Temperature)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Summary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Icon)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Error)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.City)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Country)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Temperature)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Summary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Icon)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Error)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {  id=item.index  }) |
+                    @Html.ActionLink("Details", "Details", new {  id=item.index  }) |
+                    @Html.ActionLink("Delete", "Delete", new {  id=item.index  })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

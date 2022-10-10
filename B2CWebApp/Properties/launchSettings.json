@@ -1,0 +1,29 @@
+{
+  "profiles": {
+    "WebApp_OpenIDConnect_DotNet": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:44316/;http://localhost:3110"
+    },
+    "Profile 1": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "Debug": "1"
+      },
+      "applicationUrl": "https://localhost:44316/;http://localhost:3110"
+    }
+  },
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "https://localhost:44316/",
+      "sslPort": 44316
+    }
+  }
+}
