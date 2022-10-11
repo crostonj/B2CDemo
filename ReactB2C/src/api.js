@@ -10,11 +10,9 @@ export const callApiWithToken = async (accessToken, apiEndpoint) => {
         headers: headers
     };
 
-    return fetch(apiEndpoint, options).then(response => {
-        console.log("Success");
-        response.json();
-    }).then(json => {
-        return json
-    });
+    const reponse = await fetch(apiEndpoint, options)
+    const json = await reponse.json();
+
+    return json;
 
 }
