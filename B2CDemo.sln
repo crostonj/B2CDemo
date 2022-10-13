@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.4.32804.182
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPNet-Demo", "B2CWebApp\ASPNet-Demo.csproj", "{D78FBF2E-CE70-44F3-9B53-FD57753F466F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPNet-Demo", "ASPNet-Demo\ASPNet-Demo.csproj", "{F009FD36-0FD1-4A69-962F-33ACD033CC45}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net6Api-Demo", "ApiDemo\Net6Api-Demo.csproj", "{EA36861D-D0F7-499A-B9B9-013F25425B65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net6Api-Demo", "Net6Api-Demo\Net6Api-Demo.csproj", "{E59A0788-0E42-4ADF-AB04-B137441FD6CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D78FBF2E-CE70-44F3-9B53-FD57753F466F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D78FBF2E-CE70-44F3-9B53-FD57753F466F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D78FBF2E-CE70-44F3-9B53-FD57753F466F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D78FBF2E-CE70-44F3-9B53-FD57753F466F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EA36861D-D0F7-499A-B9B9-013F25425B65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EA36861D-D0F7-499A-B9B9-013F25425B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EA36861D-D0F7-499A-B9B9-013F25425B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EA36861D-D0F7-499A-B9B9-013F25425B65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F009FD36-0FD1-4A69-962F-33ACD033CC45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F009FD36-0FD1-4A69-962F-33ACD033CC45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F009FD36-0FD1-4A69-962F-33ACD033CC45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F009FD36-0FD1-4A69-962F-33ACD033CC45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E59A0788-0E42-4ADF-AB04-B137441FD6CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E59A0788-0E42-4ADF-AB04-B137441FD6CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E59A0788-0E42-4ADF-AB04-B137441FD6CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E59A0788-0E42-4ADF-AB04-B137441FD6CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
