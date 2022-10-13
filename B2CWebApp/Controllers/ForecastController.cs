@@ -2,12 +2,10 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Web;
 using Services.Interface;
-using System.Collections.Generic;
 using System.Threading.Tasks;
-using WebApp_OpenIDConnect_DotNet.Models;
-using WebApp_OpenIDConnect_DotNet.Services;
 
-namespace WebApp_OpenIDConnect_DotNet.Controllers
+
+namespace B2C_3CloudDemo.Controllers
 {
     public class ForecastController : Controller
     {

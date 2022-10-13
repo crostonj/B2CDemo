@@ -1,6 +1,7 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License.
 
+using B2C_3CloudDemo.Services;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -10,10 +11,11 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Identity.Web;
 using Microsoft.Identity.Web.UI;
-using WebApp_OpenIDConnect_DotNet.Services;
 
-namespace WebApp_OpenIDConnect_DotNet
+
+namespace B2C_3CloudDemo
 {
+    
     public class Startup
     {
         public Startup(IConfiguration configuration)

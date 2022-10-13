@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using B2C_3CloudDemo.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -13,9 +14,9 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
-using WebApp_OpenIDConnect_DotNet.Models;
 
-namespace WebApp_OpenIDConnect_DotNet.Services
+
+namespace B2C_3CloudDemo.Services
 {
     public static class WeatherDataServiceExtensions
     {
@@ -136,6 +137,21 @@ namespace WebApp_OpenIDConnect_DotNet.Services
             };
 
             return forecasts;
+        }
+
+        Task<ForecastViewModel> IForecastDataService.GetForecastByCity(string city)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        Task<ForecastViewModel> IForecastDataService.GetForecastById(int index)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        Task<IEnumerable<ForecastViewModel>> IForecastDataService.GetForecasts()
+        {
+            throw new System.NotImplementedException();
         }
 
 

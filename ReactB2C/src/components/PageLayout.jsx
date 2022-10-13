@@ -12,7 +12,7 @@ export const PageLayout = (props) => { /**
             <NavigationBar/>
             <br/>
             <h5>
-                <center>Welcome to the Microsoft Authentication Library For React Tutorial</center>
+                <center>Demonstration of Azure B2C Integration</center>
             </h5>
             <br/> {
             props.children
@@ -27,8 +27,7 @@ export const PageLayout = (props) => { /**
                 </footer>
             </AuthenticatedTemplate>
             <UnauthenticatedTemplate>
-                Hello,
-                                please sign in !
+                Please select a signin method
             </UnauthenticatedTemplate>
 
 

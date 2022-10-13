@@ -1,10 +1,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Web.Resource;
-using Microsoft.Graph;
 using ApiDemo.Models;
-using System;
-using Microsoft.AspNetCore.Cors;
 
 namespace ApiDemo.Controllers
 {

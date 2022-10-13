@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using B2C_3CloudDemo.Models;
+using System.Collections.Generic;
 using System.Threading.Tasks;
-using WebApp_OpenIDConnect_DotNet.Models;
+
 
 namespace Services.Interface
 {

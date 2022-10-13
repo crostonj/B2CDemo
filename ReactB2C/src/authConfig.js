@@ -83,5 +83,5 @@ export const apiConfig = {
  * https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#openid-connect-scopes
  */
 export const loginRequest = {
-    scopes: [... apiConfig.apiForecast.b2cScopes]
+    scopes: [...apiConfig.apiForecast.b2cScopes]
 };

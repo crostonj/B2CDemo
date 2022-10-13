@@ -1,4 +1,4 @@
-namespace WebApp_OpenIDConnect_DotNet.Models
+namespace B2C_3CloudDemo.Models
 {
     public class ErrorViewModel
     {

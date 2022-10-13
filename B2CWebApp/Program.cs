@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace WebApp_OpenIDConnect_DotNet
+namespace B2C_3CloudDemo
 {
     public class Program
     {

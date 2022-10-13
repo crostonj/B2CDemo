@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "WebApp_OpenIDConnect_DotNet": {
+    "B2C_3CloudDemo": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

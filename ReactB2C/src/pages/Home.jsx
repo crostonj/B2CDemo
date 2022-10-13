@@ -11,14 +11,15 @@ import {loginRequest, apiConfig} from "../authConfig";
 import {ForecastData} from "../components/ForecastData";
 
 
+
 function HomeContent() {
 
-    const [forecastData, setForecastData] = useState(null);
+    const [forecastData, setForecastData] = useState([]);
     const {instance, inProgress, accounts} = useMsal();
 
     useEffect(() => {
         const account = accounts[0] || {};
-        if (!forecastData && inProgress === InteractionStatus.None) {
+        if (!forecastData.length && inProgress === InteractionStatus.None) {
 
             const accessTokenRequest = {
                 scopes: apiConfig.apiForecast.b2cScopes,
