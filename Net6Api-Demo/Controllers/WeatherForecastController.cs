@@ -8,11 +8,11 @@ namespace ApiDemo.Controllers
     [Authorize]
     [ApiController]
     [Route("api/[controller]/[action]")]
-    [RequiredScope(scopeRequiredByAPI)]
+    [RequiredScope(RequiredScopesConfigurationKey = "AppSettings:Scope")]
     public class WeatherForecastController : ControllerBase
     {
         private readonly ILogger<WeatherForecastController> _logger;
-        const string scopeRequiredByAPI = "Read.Weather";
+        const string scopeRequiredByAPI = "AppSettings:Scope";
 
         private static readonly string[] Summaries = new[]
         {

@@ -139,22 +139,6 @@ namespace B2C_3CloudDemo.Services
             return forecasts;
         }
 
-        Task<ForecastViewModel> IForecastDataService.GetForecastByCity(string city)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        Task<ForecastViewModel> IForecastDataService.GetForecastById(int index)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        Task<IEnumerable<ForecastViewModel>> IForecastDataService.GetForecasts()
-        {
-            throw new System.NotImplementedException();
-        }
-
-
         /// <summary>
         /// 
         /// </summary>

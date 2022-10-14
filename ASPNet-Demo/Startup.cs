@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Identity.Web;
 using Microsoft.Identity.Web.UI;
-
+using Microsoft.IdentityModel.Logging;
 
 namespace B2C_3CloudDemo
 {
@@ -67,6 +67,8 @@ namespace B2C_3CloudDemo
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            IdentityModelEventSource.ShowPII = true;
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
